@@ -6,15 +6,13 @@
     font-weight: 700;
     font-size: 200%;
     border: 2px solid black;
-    display: inline;
-    position: absolute;
-    left: 49%;
-    transform: translateX(-50%);
-    margin-top: -50px;
-    padding-top: 5px;
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
+    display: inline;
+    margin-left: 46.3%;
+    position: absolute;
+    margin-top: -30px;
 }
 
 .name-logo span {
@@ -31,11 +29,11 @@ header {
     width: 100%;
     position: relative;
     height: 79vh;
+    text-align: center;
 }
 h1 {
     color: white;
     text-transform: uppercase;
-    text-align: center;
     padding-top: 250px;
 }
 
@@ -58,12 +56,11 @@ header h4::after {
   background-color: white;
   position: absolute;
   bottom: -.5em;
-  left: 49.5%;
+  left: 50%;
   transform: translate(-50%);
 }
 
 header button {
-    margin-left: 45.8%;
     background-color: transparent;
     color: white;
     padding-top: 5px;
@@ -74,13 +71,6 @@ header button {
 }
 
 // NAV BAR //
-
-nav {
-    text-align: center;
-    width: 80%;
-    padding-left: 15%;
-}
-
 a {
     text-decoration: none;
     color: black;
@@ -88,20 +78,17 @@ a {
 
 .nav-bar-nav ul {
     display: flex;
-    margin-top: 80px;
-}
-li {
-    margin: 0 auto;
-    list-style: none;
+    margin-top: 50px;
+    width: 50%;
+    margin-left: 24%;
 }
 
 .nav-bar-nav li {
     list-style: none;
     text-transform: uppercase;
     font-family: $site-font;
-    margin-top: 40px;
-    border-right: 2px solid grey;
-    padding-right: 55px;
+    margin: 0 auto;
+    padding-top: 60px;
 }
 
 nav li a:hover {
