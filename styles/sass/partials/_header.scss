@@ -1,0 +1,106 @@
+header {
+    background-image: url(../assets/cool-space.jpg);
+    height: clamp(50px, 755 / 1600 * 100vw, 500px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    height: 79vh;
+}
+h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 250px;
+}
+
+header h4 {
+    color: white;
+    font-style: italic;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    font-weight: 100;
+    margin-top: -20px;
+    font-size: 13px;
+    position: relative;
+    padding-bottom: 10px;
+}
+
+header h4::after {
+    content: "";
+  height: 5px;
+  width: 30px;
+  background-color: white;
+  position: absolute;
+  bottom: -.5em;
+  left: 49.5%;
+  transform: translate(-50%);
+}
+
+header button {
+    margin-left: 45.8%;
+    background-color: transparent;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 10px;
+}
+
+.name-logo {
+    text-transform: uppercase;
+    font-family: $site-font;
+    font-weight: 700;
+    font-size: 200%;
+    border: 2px solid black;
+    display: inline;
+    position: absolute;
+    left: 49%;
+    transform: translateX(-50%);
+    margin-top: -50px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.name-logo span {
+    border-bottom: 5px solid black;
+}
+
+nav {
+    text-align: center;
+    width: 80%;
+    padding-left: 15%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav-bar-nav ul {
+    display: flex;
+    margin-top: 80px;
+}
+li {
+    margin: 0 auto;
+    list-style: none;
+}
+
+.nav-bar-nav li {
+    list-style: none;
+    text-transform: uppercase;
+    font-family: $site-font;
+    margin-top: 40px;
+    border-right: 2px solid grey;
+    padding-right: 55px;
+}
+
+nav li a:hover {
+  border-bottom: 3px solid blue;
+}
+
+
+

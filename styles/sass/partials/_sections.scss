@@ -1,0 +1,318 @@
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.skills-container li {
+    border-top: grey solid 1px;
+    // border-bottom: grey solid 1px;
+    line-height: 1.5em;
+}
+
+.skills-container p {
+    border-top:  grey solid 1px;
+    padding-top: 15px;
+}
+
+.skills-container h4 {
+    margin-bottom: -5px;
+}
+
+#skills h2 {
+    text-align: center;
+    font-family: $site-font;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+}
+
+#skills h2::after {
+    content: "";
+  height: 5px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  bottom: -2.8em;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+
+#my-work h2 {
+    text-align: center;
+    font-family: $site-font;
+    text-transform: uppercase;
+}
+
+#about-me {
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+#about-me h2 {
+    text-align: center;
+    font-family: $site-font;
+    text-transform: uppercase;
+}
+
+#about-me h2::after {
+    content: "";
+  height: 5px;
+  width: 30px;
+  background-color: black;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 40px;
+}
+
+.skills-title {
+    display: flex;
+    flex-basis: 20%;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.skills-container h2, h4 {
+    text-align: center;
+    font-family: $site-font;
+    text-transform: uppercase;
+}
+
+.skills-title i {
+    font-size: 4rem;
+    padding-top: 10px;
+}
+
+.skills-title i:hover {
+    color: blue;
+}
+
+.skills-title p {
+    text-align: center;
+    margin-top: 30px;
+    color: grey;
+}
+
+.background-image-work {
+    background-image: url(../assets/our-work.jpg);
+    height: clamp(50px, 755 / 1600 * 50vw, 500px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.background-image-work h2 {
+    color: white;
+    padding-top: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+
+.background-image-work button {
+    position: absolute;
+    left: 46.5%;
+    background: transparent;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.background-image-socials {
+    background-image: url(../assets/background-for-socials.jpg);
+    height: clamp(50px, 755 / 1600 * 50vw, 500px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+.about-me-container {
+    display: flex;
+}
+
+.about-pic img {
+    width: 100%;
+    height: 50vh;
+}
+
+.about-text {
+    width: 60%;
+    padding-left: 30px;
+}
+
+.about-text p {
+    color: grey;
+}
+
+.about-text span {
+    color: black;
+}
+
+.about-text button {
+    background-color: black;
+    color: white;
+    width: 30%;
+    text-transform: uppercase;
+    font-family: $site-font;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.skills-container {
+    position: relative;
+}
+
+.background-image-socials {
+    display: flex;
+}
+
+.socials-container {
+    position: relative;
+}
+
+.background-image-socials i {
+    font-size: 4rem;
+    color: white;
+    margin-left: 1500%;
+    margin-top: 120px;
+}
+
+.recent-work img {
+    width: 50%;
+    height: 70vh;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.all-work img {
+    height: 65vh;
+    padding-top: 50px;
+}
+
+.work-example-one-container {
+    display: flex;
+}
+
+.work-example-one-image {
+    width: 50%;
+}
+
+.work-example-one-text {
+    width: 50%;
+}
+
+.work-example-one-text i {
+    font-size: 3rem;
+}
+
+.work-example-one-text ul {
+    display:flex;
+    margin-left: -16%;
+}
+
+.work-example-one-text h3 {
+    text-transform: uppercase;
+    font-family: $site-font;
+}
+
+.work-example-one-text p {
+    color: grey;
+}
+
+.contact-container h2, h5{
+    font-family: $site-font;
+    text-align: center;
+    text-transform: uppercase;
+} p {
+    font-family: $site-font;
+}
+
+.contact-container {
+    display: flex;
+}
+
+.contact-title h2, h5 {
+    font-family: $site-font;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.contact-title h5 {
+    padding-bottom: 40px;
+}
+
+.contact-left-side {
+    width: 50%;
+}
+
+.contact-left-side p {
+    padding-right: 50px;
+}
+
+.contact-text {
+    margin-top: -30px;
+}
+
+.contact-text h4 {
+    margin-right: 79%;
+}
+
+.contact-right-side {
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 40px;
+}
+input {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-right-side button {
+    background-color: black;
+    color: white;
+    width: 30%;
+    text-transform: uppercase;
+    font-family: $site-font;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 70%;
+    margin-top: 15px;
+}
+
+.contact-container i {
+    font-size: 1.5em;
+    border: solid black 2px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: $site-font;
+}
+
+#capitlized {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+
+
+
+
+
