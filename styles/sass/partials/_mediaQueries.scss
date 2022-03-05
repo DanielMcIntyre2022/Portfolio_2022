@@ -1,10 +1,6 @@
 // SKILLS SECTION //
 
-// @media(max-width:976px) {
-//     .skills-container {
-//         // width: 100%;
-//     }
-// }
+
 
 // ABOUT ME SECTION //
 @media(max-width:1267px) {
@@ -13,6 +9,198 @@
     }
 }
 
-// TESTIMONALS SECTION //
+@media(max-width: 800px) {
+    .about-me-container {
+        flex-direction: column;
+    }
+    .about-me-container .about-pic {
+        width: 100%;
+    }
 
-// @media()
+    .about-me-container .about-text {
+        width: 100%;
+    }
+}
+
+// TESTIMONALS SECTION //
+@media(max-width: 1267px) {
+    .testimonals-container h1 {
+        margin-top: -225px;
+    }
+    .testimonals-container p {
+        margin-top: 90px;
+    }
+    .testimonals-container img {
+        margin-top: 175px;
+    }
+}
+
+@media(max-width:1143px) {
+    .testimonals-container p {
+        font-size: 0.875rem;
+    }
+    .testimonals-container img {
+        margin-top: 160px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .testimonals-container h1 {
+        margin-top: -240px;
+    }
+    .testimonals-container p {
+        margin-top: 70px;
+    }
+    .testimonals-container img {
+        margin-top: 140px;
+    }
+}
+
+@media(max-width: 940px) {
+    .testimonals-container p {
+       font-size: 0.719rem;
+    }
+    .testimonals-container img {
+        margin-top: 120px;
+    }
+}
+
+@media(max-width: 850px) {
+    .testimonals-container p {
+        padding-left: 50px;
+        margin-right: 30%;
+        font-size: 12px;
+    }
+    .testimonals-container img {
+        margin-left: 50%;
+        margin-top: 50px;
+        width: 20%;
+        height: 15vh;
+    }
+}
+
+@media(max-width:760px) {
+    .testimonals-container p {
+    margin-top: 50px;
+}
+.testimonals-container img {
+    margin-top: 35px;
+}
+}
+
+@media(max-width: 717px) {
+    .testimonals-container p {
+        margin-top: 25px;
+    }
+}
+
+@media(max-width: 708px) {
+    .testimonals-container img {
+        margin-top: 20px;
+    }
+}
+
+@media(max-width: 616px) {
+    .testimonals-container p {
+        font-size: 10px;
+    }
+    .testimonals-container img {
+        width: 15%;
+        height: 10vh;
+        margin-top: 40px;
+    }
+}
+@media(max-width:574px) {
+    .testimonals-container p {
+    padding-right: 0px;
+    margin-top: 60px;
+}
+    .testimonals-container img {
+        margin-left: 60%;
+    }
+    .testimonals-container h1 {
+        margin-left: -15%;
+    }
+}
+@media(max-width:540px) {
+    .testimonals-container img {
+    margin-top: 25px;
+}
+}
+@media(max-width:481px){
+    .testimonals-container p {
+        font-size: 0.563rem;
+    }
+}
+@media(max-width: 450px){
+    .testimonals-container img {
+        margin-top: 20px;
+    }
+    .testimonals-container h1 {
+       margin-top: -250px;
+    }
+    .testimonals-container p {
+        margin-top: 50px;
+    }
+}
+
+// MY WORK SECTION //
+
+@media(max-width: 984px) {
+    .work-example-one-container {
+    flex-direction: column;
+}
+    .work-example-one-container img {
+        width: 200%;
+    }
+    .work-example-one-container .work-example-one-text {
+        margin-top: -50px;
+        width: 100%;
+    }
+}
+
+@media(max-width: 700px) {
+    .work-example-one-container img {
+        width: 260%;
+        margin-left: -25%;
+    }
+    .work-example-one-container p {
+        width: 150%;
+        margin-left: -25%;
+    }
+    .work-example-one-container .work-example-one-text h3 {
+        margin-left: 10%;
+    }
+    .work-example-one-container .made-with h3 {
+        margin-left: 25%;
+    }
+    .work-example-one-container .made-with ul {
+        margin-left: -20%;
+    }
+}
+
+@media(max-width:550px) {
+    .work-example-one-container img {
+        width: 325%;
+        margin-left: -55%;
+    }
+}
+
+// CONTACT SECTION //
+
+@media(max-width:800px) {
+    .contact-container {
+        flex-direction: column;
+    }
+    .contact-container .contact-text {
+        width: 225%;
+        text-align: center;
+    }
+    .contact-container .contact-right-side form {
+        width: 200%;
+    }
+    .contact-container .contact-text h4 {
+        margin-left: 40%;
+    }
+}
+
