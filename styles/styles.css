@@ -456,6 +456,23 @@ li {
   color: white;
 }
 
+.socials-container {
+  background-image: url(../assets/mountains.jpg);
+  height: clamp(50px, 23.59375vw, 500px);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  text-transform: uppercase;
+  position: relative;
+  height: 40vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .background-image-socials {
   position: absolute;
   display: -webkit-box;

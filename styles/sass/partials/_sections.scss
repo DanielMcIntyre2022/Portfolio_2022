@@ -193,18 +193,18 @@
 
 // MY SOCIALS SECTION //
 
-// .socials-container {
-//     background-image: url(../assets/mountains.jpg);
-//     height: clamp(50px, 755 / 1600 * 50vw, 500px);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     width: 100%;
-//     text-transform: uppercase;
-//     position: relative;
-//     height: 40vh;
-//     display: flex;
-//     justify-content: center;
-// }
+.socials-container {
+    background-image: url(../assets/mountains.jpg);
+    height: clamp(50px, 755 / 1600 * 50vw, 500px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-transform: uppercase;
+    position: relative;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+}
 
 .background-image-socials {
     position: absolute;
