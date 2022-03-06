@@ -680,7 +680,7 @@ li {
 
 .testimonals-container .testimonals-image {
   background-image: url(../assets/testimonals-pic.jpg);
-  height: clamp(50px, 70.78125vh, 500px);
+  height: clamp(50px, 70.78125vw, 500px);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;

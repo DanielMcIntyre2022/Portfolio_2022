@@ -376,7 +376,7 @@
 
 .testimonals-container .testimonals-image {
     background-image: url(../assets/testimonals-pic.jpg);
-     height: clamp(50px, 755 / 1600 * 150vh, 500px);
+     height: clamp(50px, 755 / 1600 * 150vw, 500px);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -386,6 +386,7 @@
     display: flex;
     justify-content: center;
 }
+
 
 .testimonals-container .testimonals-image {
     color: white;
