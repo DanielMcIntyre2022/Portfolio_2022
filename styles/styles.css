@@ -693,6 +693,7 @@ li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 40vh;
 }
 
 .testimonals-container .testimonals-image {
