@@ -374,18 +374,18 @@
 
 // TESTIMONALS SECTION //
 
-// .testimonals-container .testimonals-image {
-//     background-image: url(../assets/testimonals-pic.jpg);
-//      height: clamp(50px, 755 / 1600 * 150vh, 500px);
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     width: 100%;
-//     text-transform: uppercase;
-//     margin-top: 80px;
-//     position: relative;
-//     display: flex;
-//     justify-content: center;
-// }
+.testimonals-container .testimonals-image {
+    background-image: url(../assets/testimonals-pic.jpg);
+     height: clamp(50px, 755 / 1600 * 150vh, 500px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-transform: uppercase;
+    margin-top: 80px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
 
 .testimonals-container .testimonals-image {
     color: white;
