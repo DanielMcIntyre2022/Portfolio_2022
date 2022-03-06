@@ -417,23 +417,6 @@ li {
   font-weight: 700;
 }
 
-.background-image-work {
-  background-image: url(../assets/our-work.jpg);
-  height: clamp(50px, 23.59375vw, 500px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  text-transform: uppercase;
-  position: relative;
-  height: 40vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
 .background-image-work h2 {
   color: white;
   padding-top: 60px;
@@ -454,23 +437,6 @@ li {
 
 .background-image-work button a {
   color: white;
-}
-
-.socials-container {
-  background-image: url(../assets/mountains.jpg);
-  height: clamp(50px, 23.59375vw, 500px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  text-transform: uppercase;
-  position: relative;
-  height: 40vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .background-image-socials {
@@ -676,23 +642,6 @@ li {
 
 .project-links-example-three ul li {
   padding-right: 20px;
-}
-
-.testimonals-container .testimonals-image {
-  background-image: url(../assets/testimonals-pic.jpg);
-  height: clamp(50px, 70.78125vh, 500px);
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  text-transform: uppercase;
-  margin-top: 80px;
-  position: relative;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
 }
 
 .testimonals-container .testimonals-image {
@@ -993,6 +942,12 @@ nav li a:hover {
   .nav-bar-nav ul {
     width: 110%;
     margin-left: -37.5px;
+  }
+}
+@media (max-width: 397px) {
+  .skills-container {
+    width: 50%;
+    margin-left: 35px;
   }
 }
 @media (max-width: 1267px) {
