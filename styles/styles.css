@@ -719,9 +719,9 @@ li {
 }
 
 .testimonals-container .testimonals-image p {
-  padding-top: 120px;
-  padding-left: 200px;
-  padding-right: 200px;
+  padding-top: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
   text-align: center;
   position: absolute;
 }
@@ -1031,12 +1031,11 @@ nav li a:hover {
 @media (max-width: 780px) {
   .testimonals-container .testimonals-image p {
     font-size: 13px;
-    width: 150%;
   }
 }
-@media (max-width: 460px) {
+@media (max-width: 705px) {
   .testimonals-container .testimonals-image p {
-    width: 180%;
+    font-size: 10px;
   }
 }
 @media (max-width: 1000px) {

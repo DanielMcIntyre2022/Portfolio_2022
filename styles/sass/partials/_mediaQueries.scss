@@ -67,13 +67,12 @@
 @media(max-width: 780px) {
     .testimonals-container .testimonals-image p {
         font-size: 13px;
-        width: 150%;
     }
 }
 
-@media(max-width: 460px) {
+@media(max-width: 705px) {
      .testimonals-container .testimonals-image p {
-         width: 180%;
+         font-size: 10px;
      }
 }
 // MY WORK SECTION //
