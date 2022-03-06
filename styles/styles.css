@@ -680,7 +680,7 @@ li {
 
 .testimonals-container .testimonals-image {
   background-image: url(../assets/testimonals-pic.jpg);
-  height: clamp(50px, 37.75vw, 500px);
+  height: clamp(50px, 70.78125vh, 500px);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -700,7 +700,7 @@ li {
 }
 
 .testimonals-container .testimonals-image h1 {
-  margin-top: -220px;
+  margin-top: -120px;
   position: absolute;
   font-size: 4rem;
 }
@@ -718,7 +718,7 @@ li {
 }
 
 .testimonals-container .testimonals-image p {
-  padding-top: 90px;
+  padding-top: 200px;
   padding-left: 200px;
   padding-right: 200px;
   text-align: center;
@@ -729,7 +729,7 @@ li {
   position: absolute;
   width: 8%;
   border-radius: 50%;
-  margin-top: 170px;
+  margin-top: 280px;
   border: 5px solid white;
 }
 
@@ -1025,50 +1025,6 @@ nav li a:hover {
 @media (max-width: 450px) {
   .about-me-container .about-text button {
     margin-left: 30%;
-  }
-}
-@media (max-width: 1216px) {
-  .testimonals-container .testimonals-image p {
-    font-size: 14px;
-  }
-
-  .testimonals-container .testimonals-image img {
-    margin-top: 150px;
-  }
-}
-@media (max-width: 1000px) {
-  .testimonals-container .testimonals-image h1 {
-    margin-left: -60%;
-  }
-
-  .testimonals-container .testimonals-image p {
-    padding-left: 30%;
-    padding-right: 30%;
-  }
-
-  .testimonals-container .testimonals-image img {
-    margin-left: 60%;
-    margin-top: 60px;
-    width: 10%;
-  }
-}
-@media (max-width: 910px) {
-  .testimonals-container .testimonals-image p {
-    margin-top: -30px;
-  }
-}
-@media (max-width: 700px) {
-  .testimonals-container .testimonals-image p {
-    font-size: 10px;
-    margin-top: 0px;
-  }
-
-  .testimonals-container .testimonals-image h1 {
-    margin-left: -10px;
-  }
-
-  .testimonals-image .testimonals-image img {
-    margin-top: -100px;
   }
 }
 @media (max-width: 1000px) {
