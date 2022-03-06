@@ -299,6 +299,7 @@
     }
     .contact-container .contact-text h4 {
         margin-left: 40%;
+        margin-top: -25px;
     }
     .contact-container .contact-text .contact-text-logos {
         padding-bottom: 35px;
@@ -308,6 +309,12 @@
 @media(max-width:450px) {
     .contact-container .contact-right-side button {
         margin-left: 35%;
+    }
+}
+
+@media(max-width:409px) {
+    .contact-left-side .contact-text-logos {
+        font-size: 14px;
     }
 }
 

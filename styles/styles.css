@@ -1289,6 +1289,7 @@ nav li a:hover {
 
   .contact-container .contact-text h4 {
     margin-left: 40%;
+    margin-top: -25px;
   }
 
   .contact-container .contact-text .contact-text-logos {
@@ -1298,5 +1299,10 @@ nav li a:hover {
 @media (max-width: 450px) {
   .contact-container .contact-right-side button {
     margin-left: 35%;
+  }
+}
+@media (max-width: 409px) {
+  .contact-left-side .contact-text-logos {
+    font-size: 14px;
   }
 }
