@@ -235,12 +235,6 @@ html {
   overflow: hidden;
 }
 
-html,
-body {
-  width: 100%;
-  overflow-x: hidden;
-}
-
 .wrapper {
   width: 75%;
   margin: 0 auto;
@@ -1031,6 +1025,50 @@ nav li a:hover {
 @media (max-width: 450px) {
   .about-me-container .about-text button {
     margin-left: 30%;
+  }
+}
+@media (max-width: 1216px) {
+  .testimonals-container .testimonals-image p {
+    font-size: 14px;
+  }
+
+  .testimonals-container .testimonals-image img {
+    margin-top: 150px;
+  }
+}
+@media (max-width: 1000px) {
+  .testimonals-container .testimonals-image h1 {
+    margin-left: -60%;
+  }
+
+  .testimonals-container .testimonals-image p {
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .testimonals-container .testimonals-image img {
+    margin-left: 60%;
+    margin-top: 60px;
+    width: 10%;
+  }
+}
+@media (max-width: 910px) {
+  .testimonals-container .testimonals-image p {
+    margin-top: -30px;
+  }
+}
+@media (max-width: 700px) {
+  .testimonals-container .testimonals-image p {
+    font-size: 10px;
+    margin-top: 0px;
+  }
+
+  .testimonals-container .testimonals-image h1 {
+    margin-left: -10px;
+  }
+
+  .testimonals-image .testimonals-image img {
+    margin-top: -100px;
   }
 }
 @media (max-width: 1000px) {
