@@ -218,12 +218,19 @@
 // MY WORK SECTION //
 
 .all-work img {
-    height: 65vh;
+    width: 50%;
     padding-top: 50px;
-    width: 100%;
-    height: 70vh;
+    height: 50vh;
+}
+
+.all-work {
     margin-top: 50px;
-    margin-bottom: 50px;
+}
+
+.all-work span {
+    padding: 4px 8px;
+    margin: 5px;
+    display: inline-block;
 }
 
 // work example one //
@@ -231,11 +238,14 @@
 .work-example-one-container {
     display: flex;
     border: 1px solid grey;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
-    position: relative;
+    margin-bottom: 50px;
+}
+
+.work-example-one-image, .work-example-one-text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .work-example-one-image {
@@ -243,44 +253,31 @@
 }
 
 .work-example-one-text {
+    display: flex;
+    flex-direction: column;
     width: 50%;
-    margin-left: 10%;
-    margin-top: 75px;
+    text-align: left;
+    padding-right: 50px;
 }
 
-.work-example-one-text i {
-    font-size: 3rem;
+.made-with-example-one h3 {
+    padding-left: 70px;
 }
 
-.work-example-one-text ul li {
-  margin: 10px 0;
-  padding: 2.5px;
-  margin-left: 30px;
+.made-with-example-one-icons {
+    display: flex;
 }
 
-.made-with-example-one ul {
-    display:flex;
-    position: absolute;
-    padding: 0;
-    margin-left: -2%;
-    margin-top: 0px;
+.made-with-example-one span {
+    font-size: 2rem;
 }
 
 .project-links-example-one ul {
-    padding-top: 50px;
     display: flex;
-    margin-left: -17.5%;
 }
 
-.work-example-one-text h3 {
-    text-transform: uppercase;
-    font-family: $site-font;
-    padding-top: 10px;
-}
-
-.work-example-one-text p {
-    color: grey;
-    padding-right: 30px;
+.project-links-example-one ul li {
+    padding-right: 20px;
 }
 
 // work example two //
@@ -288,68 +285,56 @@
 .work-example-two-container {
     display: flex;
     border: 1px solid grey;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
-    position: relative;
+    margin-bottom: 50px;
+}
+
+.work-example-two-image, .work-example-two-text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.work-example-two-text {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    text-align: left;
+    padding-right: 50px;
 }
 
 .work-example-two-image {
     width: 50%;
 }
 
-.work-example-two-text {
-    width: 50%;
-    margin-left: 10%;
-    margin-top: 75px;
+.made-with-example-two-icons {
+    display: flex;
 }
 
-.work-example-two-text i {
-    font-size: 3rem;
-}
-
-.work-example-two-text ul li {
-  margin: 10px 0;
-  padding: 2.5px;
-  margin-left: 30px;
-}
-
-.made-with-example-two ul {
-    display:flex;
-    position: absolute;
-    padding: 0;
-    margin-left: -2%;
-    margin-top: 0px;
+.made-with-example-two span {
+    font-size: 2rem;
 }
 
 .project-links-example-two ul {
-    padding-top: 50px;
     display: flex;
-    margin-left: -17.5%;
 }
 
-.work-example-two-text h3 {
-    text-transform: uppercase;
-    font-family: $site-font;
-    padding-top: 10px;
-}
-
-.work-example-two-text p {
-    color: grey;
-    padding-right: 30px;
+.project-links-example-two ul li {
+    padding-right: 20px;
 }
 
 // work example three //
 
 .work-example-three-container {
     display: flex;
-    border: 1px solid grey;
-    padding-bottom: 40px;
-    padding-left: 100px;
-    padding-right: 100px;
-    margin-top: 50px;
-    position: relative;
+     border: 1px solid grey;
+}
+
+.work-example-three-image, .work-example-three-text {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .work-example-three-image {
@@ -357,44 +342,31 @@
 }
 
 .work-example-three-text {
+    display: flex;
+    flex-direction: column;
     width: 50%;
-    margin-left: 10%;
-    margin-top: 75px;
+    text-align: left;
+    padding-right: 50px;
 }
 
-.work-example-three-text i {
-    font-size: 3rem;
+.made-with-example-three h3 {
+    padding-left: 100px;
 }
 
-.work-example-three-text ul li {
-  margin: 10px 0;
-  padding: 2.5px;
-  margin-left: 30px;
+.made-with-example-three-icons {
+    display: flex;
 }
 
-.made-with-example-three ul {
-    display:flex;
-    position: absolute;
-    padding: 0;
-    margin-left: -2%;
-    margin-top: 0px;
+.made-with-example-three span {
+    font-size: 2rem;
 }
 
 .project-links-example-three ul {
-    padding-top: 50px;
     display: flex;
-    margin-left: -17.5%;
 }
 
-.work-example-three-text h3 {
-    text-transform: uppercase;
-    font-family: $site-font;
-    padding-top: 10px;
-}
-
-.work-example-three-text p {
-    color: grey;
-    padding-right: 30px;
+.project-links-example-three ul li {
+    padding-right: 20px;
 }
 
 // TESTIMONALS SECTION //

@@ -6,6 +6,14 @@
     max-width: 1200px;
 }
 
+// PROJECT SECTION WRAPPERS //
+
+.project-one-wrapper, .project-two-wrapper, .project-three-wrapper {
+    width: 90%;
+}
+
+// SITE LIST ELEMENTS //
+
 li {
     list-style: none;
 }
