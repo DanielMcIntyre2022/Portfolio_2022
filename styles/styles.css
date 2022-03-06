@@ -243,6 +243,7 @@ html {
 
 .project-one-wrapper, .project-two-wrapper, .project-three-wrapper {
   width: 90%;
+  margin-left: 20px;
 }
 
 li {
@@ -1194,7 +1195,7 @@ nav li a:hover {
 }
 @media (max-width: 397px) {
   .work-example-one-container {
-    margin-left: -10px;
+    margin-left: -30px;
     width: 120%;
   }
 }
@@ -1226,7 +1227,7 @@ nav li a:hover {
 }
 @media (max-width: 397px) {
   .work-example-two-container {
-    margin-left: -10px;
+    margin-left: -30px;
     width: 120%;
   }
 }
@@ -1266,7 +1267,7 @@ nav li a:hover {
 }
 @media (max-width: 397px) {
   .work-example-three-container {
-    margin-left: -10px;
+    margin-left: -30px;
     width: 120%;
   }
 }
