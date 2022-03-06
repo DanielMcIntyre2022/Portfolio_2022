@@ -235,6 +235,12 @@ html {
   overflow: hidden;
 }
 
+html,
+body {
+  width: 100%;
+  overflow-x: hidden;
+}
+
 .wrapper {
   width: 75%;
   margin: 0 auto;
@@ -242,6 +248,7 @@ html {
 }
 
 .project-one-wrapper, .project-two-wrapper, .project-three-wrapper {
+  width: 90%;
   margin-left: 20px;
 }
 

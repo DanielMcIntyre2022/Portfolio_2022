@@ -1,5 +1,11 @@
 // SITE WRAPPER //
 
+html,
+body{
+width:100%;
+overflow-x:hidden;
+}
+
 .wrapper {
     width: 75%;
     margin: 0 auto;
@@ -9,7 +15,7 @@
 // PROJECT SECTION WRAPPERS //
 
 .project-one-wrapper, .project-two-wrapper, .project-three-wrapper {
-    // width: 90%;
+    width: 90%;
     margin-left: 20px;
 }
 
