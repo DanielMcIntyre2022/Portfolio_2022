@@ -680,20 +680,19 @@ li {
 
 .testimonals-container .testimonals-image {
   background-image: url(../assets/testimonals-pic.jpg);
-  height: clamp(50px, 70.78125vw, 500px);
+  height: clamp(50px, 23.59375vw, 500px);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   text-transform: uppercase;
-  margin-top: 80px;
   position: relative;
+  height: 40vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  height: 40vh;
 }
 
 .testimonals-container .testimonals-image {

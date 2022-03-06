@@ -375,17 +375,16 @@
 // TESTIMONALS SECTION //
 
 .testimonals-container .testimonals-image {
-    background-image: url(../assets/testimonals-pic.jpg);
-     height: clamp(50px, 755 / 1600 * 150vw, 500px);
+     background-image: url(../assets/testimonals-pic.jpg);
+    height: clamp(50px, 755 / 1600 * 50vw, 500px);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
     text-transform: uppercase;
-    margin-top: 80px;
     position: relative;
+    height: 40vh;
     display: flex;
     justify-content: center;
-    height: 40vh;
 }
 
 
