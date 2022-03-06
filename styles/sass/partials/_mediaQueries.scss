@@ -18,9 +18,22 @@
     }
 }
 
+@media(max-width: 397px) {
+    .nav-bar-nav ul {
+        width: 110%;
+        margin-left: -37.5px;
+    }
+}
+
+
 // SKILLS SECTION //
 
-
+@media(max-width: 397px) {
+    .skills-container {
+        width: 120%;
+        margin-left: -20px;
+    }
+}
 
 // ABOUT ME SECTION //
 @media(max-width:1267px) {
@@ -194,6 +207,14 @@
 
 }
 
+@media(max-width: 397px) {
+    .work-example-one-container {
+        margin-left: -10px;
+        width: 120%;
+    }
+}
+
+
 // work example two //
 
 @media(max-width: 1000px) {
@@ -211,6 +232,14 @@
         padding-left: 50px;
     }
 }
+
+@media(max-width: 397px) {
+    .work-example-two-container {
+        margin-left: -10px;
+        width: 120%;
+    }
+}
+
 
 // work example three //
 
@@ -235,6 +264,13 @@
      .made-with-example-three h3 {
     padding-right: 100px;
 }
+}
+
+@media(max-width: 397px) {
+    .work-example-three-container {
+        margin-left: -10px;
+        width: 120%;
+    }
 }
 
 // CONTACT SECTION //

@@ -988,6 +988,18 @@ nav li a:hover {
     margin-left: 42%;
   }
 }
+@media (max-width: 397px) {
+  .nav-bar-nav ul {
+    width: 110%;
+    margin-left: -37.5px;
+  }
+}
+@media (max-width: 397px) {
+  .skills-container {
+    width: 120%;
+    margin-left: -20px;
+  }
+}
 @media (max-width: 1267px) {
   .about-pic img {
     margin-top: 50px;
@@ -1169,6 +1181,12 @@ nav li a:hover {
     padding-right: 60px;
   }
 }
+@media (max-width: 397px) {
+  .work-example-one-container {
+    margin-left: -10px;
+    width: 120%;
+  }
+}
 @media (max-width: 1000px) {
   .work-example-two-container {
     -webkit-box-orient: vertical;
@@ -1193,6 +1211,12 @@ nav li a:hover {
 
   .work-example-two-text {
     padding-left: 50px;
+  }
+}
+@media (max-width: 397px) {
+  .work-example-two-container {
+    margin-left: -10px;
+    width: 120%;
   }
 }
 @media (max-width: 1000px) {
@@ -1227,6 +1251,12 @@ nav li a:hover {
 
   .made-with-example-three h3 {
     padding-right: 100px;
+  }
+}
+@media (max-width: 397px) {
+  .work-example-three-container {
+    margin-left: -10px;
+    width: 120%;
   }
 }
 @media (max-width: 800px) {
