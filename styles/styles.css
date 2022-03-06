@@ -400,12 +400,15 @@ li {
 
 .about-text button {
   background-color: black;
-  color: white;
   width: 30%;
   text-transform: uppercase;
   font-family: "Noticia Text";
   padding-top: 5px;
   padding-bottom: 5px;
+}
+
+.about-text button a {
+  color: white;
 }
 
 #capitlized {
@@ -1134,6 +1137,96 @@ nav li a:hover {
 
   .testimonals-container p {
     margin-top: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .work-example-one-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .work-example-one-image, .work-example-one-text {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .work-example-one-text {
+    padding-left: 50px;
+  }
+
+  .made-with-example-one h3 {
+    padding-right: 60px;
+  }
+}
+@media (max-width: 1000px) {
+  .work-example-two-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .work-example-two-image, .work-example-two-text {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .work-example-two-text {
+    padding-left: 50px;
+  }
+}
+@media (max-width: 1000px) {
+  .work-example-three-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .work-example-three-image, .work-example-three-text {
+    width: 100%;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+
+  .work-example-three-text {
+    padding-left: 50px;
+  }
+
+  .made-with-example-three h3 {
+    padding-right: 100px;
   }
 }
 @media (max-width: 800px) {

@@ -138,12 +138,15 @@
 
 .about-text button {
     background-color: black;
-    color: white;
     width: 30%;
     text-transform: uppercase;
     font-family: $site-font;
     padding-top: 5px;
     padding-bottom: 5px;
+}
+
+.about-text button a {
+    color: white;
 }
 
 #capitlized {
