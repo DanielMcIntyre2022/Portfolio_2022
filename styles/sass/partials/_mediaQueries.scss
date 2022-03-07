@@ -198,9 +198,9 @@
     }
 }
 
-// @media(max-width: 375px) {
-//     .contact-right-side form button {
-
-//     }
-// }
+@media(max-width: 375px) {
+    .contact-right-side form button {
+        width: 50%;
+    }
+}
 

@@ -1183,3 +1183,8 @@ nav li a:hover {
     font-size: 14px;
   }
 }
+@media (max-width: 375px) {
+  .contact-right-side form button {
+    width: 50%;
+  }
+}
