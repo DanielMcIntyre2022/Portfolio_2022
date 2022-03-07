@@ -57,13 +57,14 @@
 
 @media(max-width: 450px) {
     .about-me-container .about-text button {
-        margin-left: 30%;
+        margin-left: 25%;
+        width: 50%;
     }
 }
 
 @media(max-width: 375px) {
     .about-me-container .about-text button {
-        width: 30%;
+        width: 50%;
     }
 }
 
@@ -194,7 +195,8 @@
 
 @media(max-width:450px) {
     .contact-container .contact-right-side button {
-        margin-left: 35%;
+        margin-left: 25%;
+        width: 50%;
     }
 }
 
@@ -206,7 +208,7 @@
 
 @media(max-width: 375px) {
     .contact-right-side form button {
-        width: 30%;
+        width: 50%;
     }
 }
 
