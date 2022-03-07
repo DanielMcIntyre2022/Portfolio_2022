@@ -760,6 +760,7 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  margin-top: -25px;
 }
 
 .contact-title h2 {
@@ -778,6 +779,7 @@ p {
 
 .contact-left-side {
   width: 50%;
+  margin-top: 25px;
 }
 
 .contact-left-side p {
