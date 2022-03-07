@@ -998,7 +998,6 @@ nav li a:hover {
 }
 @media (max-width: 397px) {
   .skills-container {
-    width: 150%;
     margin-left: -30px;
   }
 }
