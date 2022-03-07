@@ -1026,13 +1026,14 @@ nav li a:hover {
 }
 @media (max-width: 450px) {
   .about-me-container .about-text button {
-    margin-left: 25%;
+    margin-left: 20%;
     width: 50%;
   }
 }
 @media (max-width: 375px) {
   .about-me-container .about-text button {
     width: 50%;
+    margin-top: 20px;
   }
 }
 @media (max-width: 780px) {
@@ -1193,5 +1194,6 @@ nav li a:hover {
 @media (max-width: 375px) {
   .contact-right-side form button {
     width: 50%;
+    margin-top: 30px;
   }
 }
