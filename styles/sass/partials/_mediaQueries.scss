@@ -61,6 +61,12 @@
     }
 }
 
+@media(max-width: 375px) {
+    .about-me-container .about-text button {
+        width: 50%;
+    }
+}
+
 // TESTIMONALS SECTION //
 
 @media(max-width: 780px) {

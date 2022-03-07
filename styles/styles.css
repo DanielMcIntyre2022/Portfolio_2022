@@ -1029,6 +1029,11 @@ nav li a:hover {
     margin-left: 30%;
   }
 }
+@media (max-width: 375px) {
+  .about-me-container .about-text button {
+    width: 50%;
+  }
+}
 @media (max-width: 780px) {
   .testimonals-container .testimonals-image p {
     font-size: 13px;
