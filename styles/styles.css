@@ -418,14 +418,14 @@ li {
 }
 
 .background-image-work {
-  background-image: url(../assets/our-work.jpg);
+  background-image: url(../assets/toronto-background-final.jpg);
   height: clamp(50px, 23.59375vw, 500px);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
   text-transform: uppercase;
   position: relative;
-  height: 40vh;
+  height: 60vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -436,7 +436,7 @@ li {
 
 .background-image-work h2 {
   color: white;
-  padding-top: 60px;
+  padding-top: 120px;
   text-align: center;
   font-size: 40px;
 }
@@ -449,7 +449,8 @@ li {
   padding-bottom: 5px;
   padding-left: 20px;
   padding-right: 20px;
-  margin-top: 150px;
+  margin-top: 220px;
+  border: 3px solid white;
 }
 
 .background-image-work button a {
