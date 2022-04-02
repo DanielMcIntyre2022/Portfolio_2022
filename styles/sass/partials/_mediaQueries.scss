@@ -103,7 +103,12 @@
     .made-with-example-one h3 {
     padding-right: 60px;
 }
-
+ .made-with-example-two h3 {
+    padding-right: 60px;
+}
+.made-with-example-three h3 {
+    padding-right: 100px;
+}
 }
 
 @media(max-width: 397px) {
@@ -160,9 +165,6 @@
  .work-example-three-text {
         padding-left: 50px;
     }
-     .made-with-example-three h3 {
-    padding-right: 100px;
-}
 }
 
 @media(max-width: 397px) {
