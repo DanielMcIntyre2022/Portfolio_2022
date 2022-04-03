@@ -1,5 +1,9 @@
 // SKILLS SECTION //
 
+.skills-container {
+    margin-left: 10%;
+}
+
 .skills-container ul {
     display: flex;
     flex-wrap: wrap;
@@ -20,6 +24,25 @@
 .skills-container h4 {
     margin-bottom: -5px;
 }
+
+.skills-row-one {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-row-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skills-row-three {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 
 #skills h2 {
     text-align: center;
@@ -47,6 +70,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    border-top: solid grey 1px;
 }
 
 .skills-container h2, h4 {

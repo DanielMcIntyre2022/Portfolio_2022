@@ -250,6 +250,10 @@ li {
   list-style: none;
 }
 
+.skills-container {
+  margin-left: 10%;
+}
+
 .skills-container ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -274,6 +278,42 @@ li {
 
 .skills-container h4 {
   margin-bottom: -5px;
+}
+
+.skills-row-one {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-row-two {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.skills-row-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 #skills h2 {
@@ -311,6 +351,7 @@ li {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  border-top: solid grey 1px;
 }
 
 .skills-container h2, h4 {
