@@ -802,9 +802,9 @@ li {
 }
 
 .testimonals-container .testimonals-image p {
-  padding-top: 100px;
-  padding-left: 350px;
-  padding-right: 350px;
+  padding-top: 110px;
+  padding-left: 20%;
+  padding-right: 20%;
   text-align: center;
   position: absolute;
 }
@@ -1144,16 +1144,6 @@ nav li a:hover {
   .about-me-container .about-text button {
     width: 50%;
     margin-top: 20px;
-  }
-}
-@media (max-width: 780px) {
-  .testimonals-container .testimonals-image p {
-    font-size: 13px;
-  }
-}
-@media (max-width: 705px) {
-  .testimonals-container .testimonals-image p {
-    font-size: 10px;
   }
 }
 @media (max-width: 1000px) {
