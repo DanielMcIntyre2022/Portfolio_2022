@@ -28,11 +28,51 @@
 
 // SKILLS SECTION //
 
-@media(max-width: 397px) {
-    .skills-container {
-        margin-left: 6.5px;
+@media(max-width: 713px) {
+    .skills-row-one {
+        margin-left: -60px;
     }
 }
+
+
+@media(max-width: 713px) {
+    .skills-row-two{
+        margin-left: -60px;
+    }
+}
+
+@media(max-width: 713px) {
+    .skills-row-three{
+        margin-left: -60px;
+    }
+}
+
+@media(max-width: 607px) {
+    .skills-container {
+        margin-left: 39%;
+
+    }
+}
+
+@media(max-width: 450px) {
+    .skills-container {
+        width: 300px;;
+        margin-left: 125px;
+    }
+}
+
+@media(max-width: 390px) {
+    .skills-container {
+        width: 300px;;
+        margin-left: 100px;
+    }
+}
+
+
+// @media(max-width: 450px) {
+    
+//     }
+// }
 
 
 // ABOUT ME SECTION //
@@ -181,8 +221,9 @@
         flex-direction: column;
     }
     .contact-container .contact-text {
-        width: 225%;
+        width: 210%;
         text-align: center;
+        padding-left: 20px;
     }
     .contact-container .contact-right-side form {
         width: 200%;
