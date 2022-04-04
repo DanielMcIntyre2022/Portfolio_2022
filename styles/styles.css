@@ -1101,12 +1101,6 @@ nav li a:hover {
     margin-left: 39%;
   }
 }
-@media (max-width: 450px) {
-  .skills-container {
-    width: 300px;
-    margin-left: 125px;
-  }
-}
 @media (max-width: 1267px) {
   .about-pic img {
     margin-top: 50px;
