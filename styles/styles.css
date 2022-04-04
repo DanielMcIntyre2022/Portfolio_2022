@@ -487,7 +487,7 @@ li {
 }
 
 .socials-container {
-  background-image: url(../assets/cool-tree.jpg);
+  background-image: url(../assets/camping-night.jpg);
   height: clamp(50px, 23.59375vw, 500px);
   background-repeat: no-repeat;
   background-size: cover;
@@ -762,7 +762,7 @@ li {
 }
 
 .testimonals-container .testimonals-image {
-  background-image: url(../assets/night-time.jpg);
+  background-image: url(../assets/hand-write.jpg);
   height: clamp(50px, 23.59375vw, 500px);
   background-repeat: no-repeat;
   background-size: cover;
