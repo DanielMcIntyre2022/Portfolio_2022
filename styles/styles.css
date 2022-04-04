@@ -1268,6 +1268,11 @@ nav li a:hover {
     width: 120%;
   }
 }
+@media (max-width: 397px) {
+  #my-work {
+    margin-left: -2%;
+  }
+}
 @media (max-width: 800px) {
   .contact-container {
     -webkit-box-orient: vertical;
