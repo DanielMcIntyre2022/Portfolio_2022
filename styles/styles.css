@@ -342,7 +342,8 @@ li {
   border-top: solid grey 1px;
 }
 
-.skills-container h2, h4 {
+.skills-container h2,
+h4 {
   text-align: center;
   font-family: "Noticia Text";
   text-transform: uppercase;
@@ -408,6 +409,12 @@ li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .about-pic img {
@@ -546,7 +553,8 @@ li {
   margin-bottom: 50px;
 }
 
-.work-example-one-image, .work-example-one-text {
+.work-example-one-image,
+.work-example-one-text {
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -602,7 +610,8 @@ li {
   margin-bottom: 50px;
 }
 
-.work-example-two-image, .work-example-two-text {
+.work-example-two-image,
+.work-example-two-text {
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -658,7 +667,8 @@ li {
   margin-bottom: 50px;
 }
 
-.work-example-three-image, .work-example-three-text {
+.work-example-three-image,
+.work-example-three-text {
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -714,7 +724,8 @@ li {
   margin-bottom: 50px;
 }
 
-.work-example-four-image, .work-example-four-text {
+.work-example-four-image,
+.work-example-four-text {
   width: 100%;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -818,7 +829,8 @@ li {
   border: 5px solid white;
 }
 
-.contact-container h2, h5 {
+.contact-container h2,
+h5 {
   font-family: "Noticia Text";
   text-align: center;
   text-transform: uppercase;
@@ -851,7 +863,8 @@ p {
   padding-bottom: 30px;
 }
 
-.contact-title h2, h5 {
+.contact-title h2,
+h5 {
   font-family: "Noticia Text";
   text-align: center;
   text-transform: uppercase;
